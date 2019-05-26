@@ -15,7 +15,6 @@ const registrationValidation = (data) =>{
                      .required()
         
     };
-
     return Joi.validate(data, schema);
 } 
 
